@@ -15,7 +15,7 @@ export class ReactionTimeCheck extends Component {
   // requestHistoryClass = document.querySelector('.resultHistoryClass');
 
   onClick = () => {
-    const { resultsHistory, message, color, result } = this.state;
+    const { resultsHistory, color } = this.state;
     if (color === 'waiting') {
       this.setState({
         message: 'Click when the screen turns to green',

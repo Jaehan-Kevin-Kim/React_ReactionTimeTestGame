@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 // import './index.css';
-import ReactionTimeCheck from './ReactionTimeCheck';
+// import ReactionTimeCheck from './ReactionTimeCheck';
+import ReactionTimeCheck_Hooks from './ReactionTimeCheck_Hooks';
 
-ReactDOM.render(<ReactionTimeCheck />, document.getElementById('root'));
+ReactDOM.render(<ReactionTimeCheck_Hooks />, document.getElementById('root'));
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
